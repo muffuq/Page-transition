@@ -1,0 +1,19 @@
+{
+  "name": "page-transition--effect",
+  "version": "1.0.0",
+  "description": "Page Transition Animation",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html --public-url ./ --no-source-maps"
+  },
+  "author": "muffuq",
+  "license": "ISC",
+  "dependencies": {
+    "@barba/core": "^2.9.7",
+    "gsap": "^3.12.2",
+    "parcel": "^2.10.2"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.10.2"
+  }
+}
